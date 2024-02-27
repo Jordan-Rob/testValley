@@ -1,0 +1,101 @@
+.container{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+
+}
+
+.firsthalf{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.secondhalf{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.secondhalf button{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 8px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.5px;
+    background-color: #fff;
+    border: none;
+}
+
+.secondhalf .bar{
+    margin-right: 12px;
+}
+
+.logoarea{
+    display: flex;
+    justify-content: space-between;
+    color: #00d094
+}
+
+.logoAreaItem{
+    margin-right: 16px;
+}
+
+.iconArea{
+    cursor: pointer;
+    color: rgb(0, 208, 148);
+}
+
+.iconArea::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-image: url(https://www.testvalley.kr/common/icon-category.svg);
+    vertical-align: text-top;
+}
+
+.search{
+    margin-left: 90px;
+    position: relative;
+    width: 335px;
+    display: flex;
+}
+
+.searchIcon{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 20px;
+}
+
+.searchNav{
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+
+.moreinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
