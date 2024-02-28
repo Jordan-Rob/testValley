@@ -4,6 +4,8 @@ const getBanners = async () => {
 
 export const Banner = () => {
   return (
-    <div>Banner</div>
+    <div>
+      <div>Banner</div>
+    </div>
   )
 }
